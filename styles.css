@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400&display=swap');
+
+/* ---- CSS FOR SOCIALS ICON LINKS ---- */
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  background: #B7B8A5;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+
+/* ------ CSS FOR MAIN LANDING PAGE -----  */
+
+body {
+  margin: 0px;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+#page-links {
+  display: inline-block;
+}
+
+nav a {
+  margin-left: 13px;
+  vertical-align: middle;
+}
+
+nav a:hover {
+  color: #6b6c67;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #DFDACE;
+}
+
+main.main-page {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 80vh;
+  margin: 30px 20px 30px 20px;
+}
+
+h1 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 6vw;
+  height: 20px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#im-kaye {
+  font-family: 'Yeseva One', cursive;
+  font-size: 3vw;
+  /* height: 30px; */
+  padding-left: 30px;
+  color: #B7B8A5;
+}
+
+h3 {
+  padding-left: 10px;
+  padding-right: 5px;
+  text-align: justify;
+}
+
+#top-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #6b6c67;
+}
+
+#prof-pic {
+  width: 40%;
+  height: 500px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+#index-section {
+  border: 0;
+  width: 30%;
+}
+
+#prof-pic, section#index-section {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+p {
+  line-height: 30px;
+  text-align: justify;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  padding: 5px 10px 5px 10px;
+}
+
+button {
+  background-color: #B7B8A5;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  height: 40px;
+  width: 48%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#title-link {
+  color: #6b6c67;
+}
+
+footer {
+  position: fixed;
+  font-size: 13px;
+  text-align: center;
+  bottom: 0px;
+  height: 25px;
+  width: 100%;
+  color: #6b6c67;
+  background-color: #DFDACE;
+}
+
+  /* ----- CSS for PROJECTS PAGE ------- */
+
+  #page-title {
+  height: 60px;
+  margin: 30px;
+  font-size: 56px;
+}
+
+.proj-div {
+  background-color: #dfdacec5;
+  width: 380px;
+  /* height: 420px; */
+  height: auto;
+  margin: 20px;
+}
+
+img {
+  /* height: 20vw;
+  width: 20vw; */
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  align-items: center;
+  margin: 0;
+}
+
+#proj-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 50px;
+}
+
+.proj-titles {
+  font-family: 'Yeseva One', cursive;
+  padding: 10px 10px 18px 10px;
+  border-bottom: 1px solid white;
+  margin: 0;
+  text-align: center;
+}
+
+/* ----- CSS FOR CONTACT SECTION -------- */
+
+form {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+input {
+  height: 30px;
+  width: 320px;
+  background-color: #DFDACE;
+  border: none;
+  border-radius: 6px;
+}
+
+textarea {
+  width: 320px;
+  height: 100px;
+  background-color: #DFDACE;
+  border: none;
+  border-radius: 6px;
+}
+
+label {
+  margin-right: 50px;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.form-item label {
+  font-size: 18px;
+  flex-basis: 15%;
+}
+
+.form-item button {
+  width: 320px;
+  color: white;
+  margin-left: 120px;
+  margin-bottom: 70px;
+}
+
+#p-contact {
+  margin: auto;
+  width: 560px;
+}
+
+/* ------ MEDIA QUERIES  ------ */
+
+@media (max-width: 600px) {
+  
+  /*  ---- FOR MAIN PAGE ----- */
+
+  main.main-page {
+    display: block;
+    margin: 30px;
+    height: 150vh;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row; 
+  }
+
+  #index-section {
+    width: 95%;
+  }
+
+  button {
+    width: 100%;
+    margin: 10px;
+  }
+
+  #prof-pic {
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+  }
+
+  h1 {
+    font-size: 16vw;
+    /* padding-top: 20px; */
+  }
+
+  h3 {
+    padding: 0px;
+    font-weight: 100%;
+    text-align: center;
+  }
+
+  p {
+    padding: 10px;
+  }
+
+  #im-kaye {
+    font-size: 12vw;
+    padding-bottom: 40px;
+    margin: 0px;
+  }
+
+  #top-section {
+    display: block;
+    margin: 0;
+  }
+
+  .form-item {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-item button {
+    margin: 0 0 70px 0;
+  }
+
+  #p-contact {
+    width: 320px;
+    margin-top: 70px;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 1100px) {
+
+   /*  ---- FOR MAIN PAGE ----- */
+
+  h1 {
+    font-size: 8vw;
+    /* margin-top: 2px; */
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px;
+  }
+
+  #index-section {
+    border: 0;
+    width: 40%;
+  }
+  
+  button {
+    display: block;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+}
+
+@media (max-width: 1100px) {
+
+  /* ------ FOR PROJECTS PAGE ------ */
+
+  #proj-section {
+    display: block;
+    
+  }
+
+  .proj-div, img {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+
+  img {
+    margin: 0;
+    width: 100%;
+    object-fit: cover;
+  }
+
+}
