@@ -223,7 +223,7 @@ label {
 
 .form-item label {
   font-size: 18px;
-  flex-basis: 15%;
+  flex-basis: 14%;
 }
 
 .form-item button {
@@ -236,6 +236,13 @@ label {
 #p-contact {
   margin: auto;
   width: 560px;
+}
+
+/* ---- CSS FOR ABOUT ME PAGE ---- */
+
+.about-p {
+  padding: 20px;
+  line-height: 30px;
 }
 
 /* ------ MEDIA QUERIES  ------ */
