@@ -122,6 +122,14 @@ button {
   width: 48%;
 }
 
+button a:hover {
+  color:#6b6c67;
+}
+
+div button:hover {
+  color: #6b6c67;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -234,6 +242,8 @@ label {
 }
 
 #p-contact {
+  display: flex;
+  justify-content: center;
   margin: auto;
   /* width: 560px; */
   width: auto;
