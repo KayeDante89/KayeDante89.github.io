@@ -234,6 +234,8 @@ label {
 }
 
 #p-contact {
+  display: flex;
+  justify-content: center;
   margin: auto;
   /* width: 560px; */
   width: auto;
