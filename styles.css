@@ -173,7 +173,7 @@ img {
   display: flex;
   justify-content: center;
   padding: 20px;
-  margin: 50px;
+  /* margin: 50px; */
 }
 
 .proj-titles {
