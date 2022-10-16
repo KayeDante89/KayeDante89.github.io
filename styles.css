@@ -96,6 +96,7 @@ h3 {
   width: 30vw;
   height: 500px;
   object-fit: cover;
+  border-radius: 40px;
   /* margin: 20px; */
 }
 
@@ -109,7 +110,6 @@ section#index-section {
   /* display: inline-block;
   vertical-align: middle; */
   display: flex;
-  justify-content: center;
   align-content: center;
   flex-direction: column;
   margin: 10px;
@@ -163,7 +163,7 @@ footer {
 
   /* ----- CSS for PROJECTS PAGE ------- */
 
-  #page-title {
+#page-title {
   height: 60px;
   margin: 30px;
   font-size: 56px;
@@ -242,8 +242,8 @@ label {
 }
 
 .form-item label {
-  font-size: 18px;
-  flex-basis: 14%;
+  font-size: 16px;
+  flex-basis: 15%;
 }
 
 .form-item button {
@@ -354,6 +354,12 @@ label {
 @media (min-width: 600px) and (max-width: 1190px) {
 
    /*  ---- FOR MAIN PAGE ----- */
+  #prof-pic {
+    height: auto;
+    min-height: 550px;
+    /* margin-right: 30px; */
+  }
+
 
   h1 {
     font-size: 8vw;
