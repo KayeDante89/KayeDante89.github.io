@@ -417,9 +417,9 @@ label {
 @media (min-width: 1680px) {
 
   #prof-pic {
-    max-width: 100%;
+    /* max-width: 100%; */
     width: 30vw;
-    height: 40vh;
+    height: 550px;
     object-fit: cover;
     /* margin: 20px; */
   }
